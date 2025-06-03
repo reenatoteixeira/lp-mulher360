@@ -6,6 +6,7 @@ function NavLinks({ links }: NavLinksProps) {
       {links.map((link: { label: string; href: string }) => {
         return (
           <a
+            key={link.href}
             href={link.href}
             className="text-brown-500 hover:text-brown-300 focus:ring-brown-300 transition-colors duration-150 focus:ring-2 focus:outline-none"
           >
