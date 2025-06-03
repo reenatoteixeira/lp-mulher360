@@ -1,9 +1,9 @@
-import type { NavLinksProps } from './NavLinks.types.ts';
+import type { NavLinksProps, NavLinkItem } from './NavLinks.types.ts';
 
 function NavLinks({ links }: NavLinksProps) {
   return (
     <>
-      {links.map((link: { label: string; href: string }) => {
+      {links.map((link: NavLinkItem) => {
         return (
           <a
             key={link.href}
