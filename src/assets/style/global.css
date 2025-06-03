@@ -1,1 +1,19 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --color-brown-50: oklch(96.7% 0.026 44.5);
+  --color-brown-100: oklch(91.9% 0.046 44.5);
+  --color-brown-200: oklch(83.4% 0.088 44.5);
+  --color-brown-300: oklch(73.2% 0.131 44.5);
+  --color-brown-400: oklch(63.1% 0.153 44.5);
+  --color-brown-500: oklch(52.7% 0.148 44.5);
+  --color-brown-600: oklch(45.1% 0.132 44.5);
+  --color-brown-700: oklch(37.3% 0.115 44.5);
+  --color-brown-800: oklch(29.7% 0.098 44.5);
+  --color-brown-900: oklch(22.2% 0.081 44.5);
+  --color-brown-950: oklch(16.1% 0.064 44.5);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
