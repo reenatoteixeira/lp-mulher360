@@ -1,4 +1,4 @@
-import ComingSoonPage from './pages/ComingSoonPage.tsx';
+import ComingSoonPage from './pages/ComingSoonPage';
 
 function App() {
   return <ComingSoonPage />;
