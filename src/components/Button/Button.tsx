@@ -15,8 +15,7 @@ const Button = ({
   const { buttonStyle, iconSize } = getButtonStyle(size, style, state, iconPosition, fullWidth);
 
   return (
-    <button onClick={onClick} className={buttonStyle} disabled={state === 'disabled'}>
-      <span className="sr-only">{ariaLabel}</span>
+    <button onClick={onClick} className={buttonStyle} disabled={state === 'disabled'} aria-label={ariaLabel}>
       {Icon && iconPosition === 'left' && <Icon size={iconSize} data-testid="icon" />}
       {iconPosition !== 'alone' && label}
       {Icon && iconPosition === 'right' && <Icon size={iconSize} data-testid="icon" />}
