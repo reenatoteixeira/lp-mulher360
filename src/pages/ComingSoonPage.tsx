@@ -19,7 +19,7 @@ function ComingSoonPage() {
         Enquanto isso, você pode acompanhar as novidades e dicas de nutrição nas redes sociais ou entrar em contato:
       </p>
 
-      <div className="flex items-center justify-around w-full max-w-md mt-4 gap-4">
+      <div className="mt-4 flex w-full max-w-md items-center justify-around gap-4">
         <a
           href="https://www.instagram.com/mulher360_/"
           className="text-brown-500 hover:text-brown-300 flex items-center gap-1 transition-all duration-150"
