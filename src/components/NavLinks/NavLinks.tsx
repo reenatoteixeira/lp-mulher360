@@ -1,5 +1,5 @@
-import type { NavLinksProps } from './NavLinks.types.ts';
-import type { NavLinkItem } from '../../types/NavLinkItem.ts';
+import type { NavLinksProps } from './NavLinks.types';
+import type { NavLinkItem } from '../../types/NavLinkItem';
 
 function NavLinks({ links }: NavLinksProps) {
   return (
