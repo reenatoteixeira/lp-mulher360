@@ -9,7 +9,7 @@ export default function getButtonStyle(
   fullWidth: boolean = false,
 ) {
   const isIconAlone = iconPosition === 'alone',
-    baseClasses = `transition-all duration-200 rounded-md flex items-center justify-center gap-1.5 ${fullWidth ? 'w-full' : ''}`;
+    baseClasses = `transition-all duration-200 rounded-lg flex items-center justify-center gap-1.5 ${fullWidth ? 'w-full' : ''} focus:ring-brown-300 focus:ring-2 focus:outline-none`;
 
   const sizeClasses = {
     sm: isIconAlone ? 'p-2' : 'px-2.5 py-1.5 text-sm',

@@ -10,10 +10,11 @@ const Button = ({
   iconPosition = 'left',
   state = 'enabled',
   fullWidth = false,
+  pill = false,
   href,
 }: ButtonLinkProps) => {
   const disabled = state === 'disabled',
-    { buttonLinkStyle, iconSize } = getButtonLinkStyle(size, style, state, iconPosition, fullWidth);
+    { buttonLinkStyle, iconSize } = getButtonLinkStyle(size, style, state, iconPosition, fullWidth, pill);
 
   return (
     <a

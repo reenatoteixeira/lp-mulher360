@@ -9,7 +9,7 @@ function Header() {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <header className={`fixed top-0 z-10 w-full bg-white/80 shadow-sm backdrop-blur-sm`}>
+    <header className={`fixed top-0 z-20 w-full bg-white/90 shadow-sm backdrop-blur-sm`}>
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-3">
           <a href="#" className="focus:ring-brown-300 focus:ring-2 focus:outline-none">
@@ -22,7 +22,7 @@ function Header() {
               className="text-brown-500 hover:text-brown-300 focus:ring-brown-300 rounded-md transition-all hover:cursor-pointer focus:ring-2 focus:outline-none"
               aria-label="Menu"
             >
-              {navOpen ? <X size="28" /> : <Menu size="28" />}
+              {navOpen ? <X size="30" /> : <Menu size="30" />}
             </button>
           </div>
 

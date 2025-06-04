@@ -8,7 +8,7 @@ function NavMenu({ isOpen, navLinks }: NavMenuProps) {
     >
       <hr className="border-brown-500 border" />
 
-      <div className="flex flex-col gap-3 px-1 py-4">
+      <div className="flex flex-col gap-4 px-1 py-4">
         <NavLinks links={navLinks} />
       </div>
     </nav>
