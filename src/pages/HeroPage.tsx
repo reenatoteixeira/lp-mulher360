@@ -29,7 +29,7 @@ function HeroPage() {
 
         <h2 className="text-brown-50 max-w-5xl text-lg sm:text-xl md:text-2xl lg:text-3xl">
           Transforme sua relação com a alimentação e consigo mesma através de uma abordagem holística que une nutrição,
-          psicologia e autocuidado.
+          terapia e autocuidado.
         </h2>
 
         <div className="mt-4 flex w-full max-w-sm flex-col items-center gap-4 sm:max-w-2xl sm:flex-row md:gap-8">
