@@ -59,7 +59,7 @@ function HeroPage() {
       </div>
 
       <div className="relative z-10 -mt-14 flex w-full animate-bounce justify-center text-white">
-        <Mouse size="36" />
+        <Mouse size="36" aria-hidden="true" />
       </div>
     </section>
   );
