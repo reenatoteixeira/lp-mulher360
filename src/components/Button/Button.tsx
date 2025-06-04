@@ -1,5 +1,5 @@
 import type { ButtonProps } from './Button.types';
-import getButtonStyle from './Button.styles.ts';
+import getButtonStyle from './Button.styles';
 
 const Button = ({
   label = 'Label',
