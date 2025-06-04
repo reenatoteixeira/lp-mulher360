@@ -12,6 +12,7 @@ export interface ButtonLinkProps {
   style?: ButtonLinkStyle;
   icon?: LucideIcon;
   fullWidth?: boolean;
+  pill?: boolean;
   iconPosition?: ButtonLinkIconPosition;
   state?: ButtonLinkState;
   href: string;

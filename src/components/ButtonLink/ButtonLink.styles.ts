@@ -7,9 +7,10 @@ export default function getButtonLinkStyle(
   state: ButtonLinkState,
   iconPosition?: ButtonLinkIconPosition,
   fullWidth: boolean = false,
+  pill: boolean = false
 ) {
   const isIconAlone = iconPosition === 'alone',
-    baseClasses = `transition-all duration-200 rounded-md flex items-center justify-center gap-1.5 ${fullWidth ? 'w-full' : ''}`;
+    baseClasses = `transition-all duration-200 flex items-center justify-center gap-1.5 ${fullWidth ? 'w-full' : ''} ${pill ? 'rounded-full' : 'rounded-lg'} focus:ring-brown-300 focus:ring-2 focus:outline-none`;
 
   const sizeClasses = {
     sm: isIconAlone ? 'p-2' : 'px-2.5 py-1.5 text-sm',
