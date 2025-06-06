@@ -2,12 +2,12 @@ import aboutPicture from '../assets/images/about-placeholder.png';
 
 function AboutPage() {
   return (
-    <section id="about">
+    <section id="sobre">
       <div className="container mx-auto flex max-w-7xl flex-col items-center px-4 py-18 md:px-6 lg:flex-row lg:items-start lg:justify-between lg:gap-12 lg:px-8">
         <img
           src={aboutPicture}
           alt="Foto da nutricionista Luciana Teixeira"
-          className="shadow-brown-950/40 w-full max-w-md rounded-2xl shadow-xl lg:order-2 lg:w-1/2 lg:max-w-2xl"
+          className="shadow-brown-950/40 w-full max-w-md rounded-2xl shadow-xl lg:order-2 lg:w-1/2 lg:max-w-2xl lg:py-2"
         />
 
         <div className="mt-12 flex flex-col gap-6">
