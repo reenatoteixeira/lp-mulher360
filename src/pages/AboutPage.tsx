@@ -2,7 +2,7 @@ import aboutPicture from '../assets/images/about-placeholder.png';
 
 function AboutPage() {
   return (
-    <section id="about" className="">
+    <section id="about">
       <div className="container mx-auto flex max-w-7xl flex-col items-center px-4 py-18 md:px-6 lg:flex-row lg:items-start lg:justify-between lg:gap-12 lg:px-8">
         <img
           src={aboutPicture}
