@@ -3,7 +3,7 @@ import Stepper from '../components/Stepper/Stepper.tsx';
 function HowItWorkPage() {
   return (
     <section id="como-funciona" className="bg-white">
-      <div className="text-brown-800/70 container mx-auto flex max-w-7xl flex-col items-center px-6 py-18 text-center">
+      <div className="text-brown-800/70 container mx-auto flex max-w-7xl flex-col items-center px-6 py-24 text-center">
         <h2 className="text-4xl font-bold">Como Funciona</h2>
 
         <p className="mt-6 text-lg">
