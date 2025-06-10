@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <header className={`fixed top-0 z-20 w-full bg-white/90 shadow-sm backdrop-blur-sm`}>
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between py-3">
           <a href="#" className="focus:ring-brown-300 focus:ring-2 focus:outline-none">
             <img src={logo} alt="Logo Mulher360" className="size-12" />

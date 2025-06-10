@@ -3,7 +3,7 @@ import aboutPicture from '../assets/images/about-placeholder.png';
 function AboutPage() {
   return (
     <section id="sobre">
-      <div className="container mx-auto flex max-w-7xl flex-col items-center px-4 py-18 md:px-6 lg:flex-row lg:items-start lg:justify-between lg:gap-12 lg:px-8">
+      <div className="container mx-auto flex max-w-7xl flex-col items-center px-6 py-18 lg:flex-row lg:items-start lg:justify-between lg:gap-12">
         <img
           src={aboutPicture}
           alt="Foto da nutricionista Luciana Teixeira"
