@@ -19,7 +19,7 @@ function Header() {
           <div className="flex items-center justify-center md:hidden">
             <button
               onClick={() => setNavOpen(!navOpen)}
-              className="text-brown-500 hover:text-brown-300 focus:ring-brown-300 rounded-md transition-all hover:cursor-pointer focus:ring-2 focus:outline-none"
+              className="text-brown-500 hover:text-brown-300 rounded-md transition-all hover:cursor-pointer"
               aria-label="Menu"
             >
               {navOpen ? <X size="30" /> : <Menu size="30" />}
