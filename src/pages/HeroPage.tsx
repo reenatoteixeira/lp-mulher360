@@ -21,13 +21,13 @@ function HeroPage() {
     <section className="relative h-screen bg-[url(/src/assets/images/hero-bg.jpg)] bg-cover bg-center">
       <div className="absolute inset-0 z-0 bg-black/80" />
 
-      <div className="relative z-10 container mx-auto flex h-full max-w-7xl flex-col items-center justify-center gap-4 px-4 text-center md:px-6 lg:px-8">
-        <h1 className="text-brown-50 text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl">
-          Revitalize seu corpo e mente através do{' '}
+      <div className="relative z-10 container mx-auto flex h-full max-w-7xl flex-col items-center justify-center gap-4 px-6 text-center">
+        <h1 className="text-3xl leading-tight text-stone-50 sm:text-4xl md:text-5xl lg:text-6xl">
+          Revitalize seu corpo e mente através do <br />
           <strong className="text-brown-200">cuidado nutricional integrativo</strong>
         </h1>
 
-        <h2 className="text-brown-50 max-w-5xl text-lg sm:text-xl md:text-2xl lg:text-3xl">
+        <h2 className="max-w-5xl text-lg text-stone-50 sm:text-xl md:text-2xl lg:text-3xl">
           Transforme sua relação com a alimentação e consigo mesma através de uma abordagem holística que une nutrição,
           terapia e autocuidado.
         </h2>
