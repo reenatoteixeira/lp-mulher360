@@ -1,4 +1,4 @@
-import aboutPicture from '../assets/images/about-placeholder.png';
+import aboutPicture from '../assets/images/about-picture.svg';
 
 function AboutPage() {
   return (
