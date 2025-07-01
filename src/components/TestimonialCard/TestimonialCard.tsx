@@ -9,7 +9,7 @@ function TestimonialCard({ content, name, age, avatar }: TestimonialCardTypes) {
         <hr className="border-brown-500/30 mb-4" />
 
         <div className="flex items-center gap-2">
-          <img src={avatar} alt="Testimonial" className="size-12 rounded-full" />
+          <img src={avatar} alt={`Foto de ${name}`} className="size-12 rounded-full" />
 
           <div>
             <h4 className="text-lg font-bold">{name}</h4>
