@@ -3,7 +3,7 @@ import type { TestimonialCardTypes } from './TestimonialCard.types.ts';
 function TestimonialCard({ content, name, age, avatar }: TestimonialCardTypes) {
   return (
     <div className="border-brown-300/40 flex w-full flex-col justify-between gap-2 rounded-2xl border bg-white p-6 shadow-lg md:max-w-lg">
-      <p className="line-clamp-13 h-80">{content}</p>
+      <p className="line-clamp-16 h-95 overflow-hidden">{content}</p>
 
       <div>
         <hr className="border-brown-500/30 mb-4" />
