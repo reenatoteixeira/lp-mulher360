@@ -10,7 +10,7 @@ function HowItWorkPage() {
           Um processo cuidadoso e personalizado que respeita seu ritmo e promove transformações duradouras
         </p>
 
-        <div className="mt-6 grid grid-cols-1 content-center sm:grid-cols-2 sm:gap-x-12 lg:grid-cols-4">
+        <div className="my-6 grid grid-cols-1 content-center sm:grid-cols-2 sm:gap-x-12 lg:grid-cols-4">
           <Stepper
             step="01"
             title="Primeiro Contato"
@@ -36,10 +36,10 @@ function HowItWorkPage() {
           />
         </div>
 
-        <div className="bg-brown-800/10 shadow-brown-950/20 border-brown-300/40 mt-12 rounded-2xl border p-6 shadow-lg">
+        <div className="bg-brown-700/20 shadow-brown-950/20 border-brown-300/40 mt-12 rounded-2xl border p-6 shadow-lg">
           <h4 className="text-2xl font-bold">Abordagem Integrativa</h4>
 
-          <p className="mt-4">
+          <p className="mt-4 text-lg">
             Nossas consultas integram aspectos nutricionais e emocionais, trabalhando não apenas o que você come, mas
             também como você se relaciona com a comida. O foco está na transformação a longo prazo, não em dietas
             restritivas ou soluções temporárias
