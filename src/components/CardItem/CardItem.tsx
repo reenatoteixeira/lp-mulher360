@@ -1,6 +1,6 @@
 import type { CardItemProps } from './CardItem.types';
 
-function Stepper({ title, description }: CardItemProps) {
+function CardItem({ title, description }: CardItemProps) {
   return (
     <div className="mt-12 flex w-full flex-col items-center justify-center gap-3">
       <div className="bg-brown-800/40 flex size-15 items-center justify-center rounded-full">
@@ -14,4 +14,4 @@ function Stepper({ title, description }: CardItemProps) {
   );
 }
 
-export default Stepper;
+export default CardItem;
