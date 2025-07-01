@@ -14,7 +14,7 @@ function TestimonialPage() {
 
         <TestimonialsSwiper />
 
-        <p className="mt-12 text-base text-center">Você também pode ser a próxima história de sucesso</p>
+        <p className="mt-12 text-center text-base">Você também pode ser a próxima história de sucesso</p>
 
         <div className={'mt-6 w-fit transition-all duration-200 hover:scale-105'}>
           <ButtonLink
