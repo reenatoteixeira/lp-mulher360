@@ -1,5 +1,5 @@
-import type { NavMenuProps } from '../NavMenu.types.ts';
-import NavLinks from '../../NavLinks/NavLinks.tsx';
+import type { NavMenuProps } from '../NavMenu.types';
+import NavLinks from '../../NavLinks/NavLinks';
 
 function NavMenu({ navLinks }: NavMenuProps) {
   return (

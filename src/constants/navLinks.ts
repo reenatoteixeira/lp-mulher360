@@ -1,4 +1,4 @@
-import type { NavLinkItem } from '../types/NavLinkItem.ts';
+import type { NavLinkItem } from '../types/NavLinkItem';
 
 export const MAIN_NAV_LINKS: NavLinkItem[] = [
   { label: 'Sobre', href: '#sobre' },

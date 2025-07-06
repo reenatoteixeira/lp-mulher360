@@ -4,8 +4,8 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 // @ts-expect-error Swiper modules styles
 import 'swiper/css/autoplay';
-import { testimonials } from '../../data/testimonial.ts';
-import TestimonialCard from '../TestimonialCard/TestimonialCard.tsx';
+import { testimonials } from '../../data/testimonial';
+import TestimonialCard from '../TestimonialCard/TestimonialCard';
 
 function TestimonialsSwiper() {
   return (
