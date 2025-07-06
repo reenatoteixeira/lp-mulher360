@@ -1,5 +1,5 @@
 import logo from '../../assets/images/logo.svg';
-import { MAIN_NAV_LINKS } from '../../constants/navLinks.ts';
+import { MAIN_NAV_LINKS } from '../../constants/navLinks';
 
 function Footer() {
   const actualYear = new Date().getFullYear();
