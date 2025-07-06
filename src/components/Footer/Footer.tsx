@@ -33,7 +33,7 @@ function Footer() {
             <h2 className="text-xl font-bold">Contatos</h2>
             <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:gap-6">
               <a
-                href="https://api.whatsapp.com/message/R247WLXD7UZID1"
+                href="https://wa.me/5512988942652"
                 className="text-white/80 transition-colors duration-150 hover:text-white/30"
               >
                 WhatsApp

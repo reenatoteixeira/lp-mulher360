@@ -23,7 +23,7 @@ function FAQ() {
 
         <div className={'mt-6 w-fit transition-all duration-200 hover:scale-105'}>
           <ButtonLink
-            href="https://api.whatsapp.com/message/R247WLXD7UZID1"
+            href="https://wa.me/5512988942652"
             label="Fale conosco"
             fullWidth={true}
             icon={MessageCircle}

@@ -35,7 +35,7 @@ function Hero() {
         <div className="mt-4 flex w-full max-w-sm flex-col items-center gap-4 sm:max-w-2xl sm:flex-row md:gap-8">
           <div className="w-full transition-all duration-200 hover:scale-105">
             <ButtonLink
-              href="https://api.whatsapp.com/message/R247WLXD7UZID1"
+              href="https://wa.me/5512988942652"
               label="Agendar Consulta"
               fullWidth={true}
               icon={MessageCircle}
