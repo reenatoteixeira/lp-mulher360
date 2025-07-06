@@ -7,14 +7,14 @@ import Methodology from './sections/Methodology';
 
 function LandingPage() {
   return (
-    <>
+    <main>
       <Header />
       <Hero />
       <About />
       <HowItWork />
       <Testimonial />
       <Methodology />
-    </>
+    </main>
   );
 }
 
