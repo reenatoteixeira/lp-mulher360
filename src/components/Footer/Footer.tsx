@@ -54,7 +54,7 @@ function Footer() {
           </div>
         </div>
 
-        <hr className="my-6 border-1 border-white/20" />
+        <hr className="my-6 border border-white/20" />
 
         <div className="text-white/30">
           <p className="mt-4 text-center text-base">
