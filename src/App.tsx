@@ -1,7 +1,7 @@
-import ComingSoonPage from './pages/ComingSoonPage';
+import LandingPage from './pages/landing-page/LandingPage';
 
 function App() {
-  return <ComingSoonPage />;
+  return <LandingPage />;
 }
 
 export default App;

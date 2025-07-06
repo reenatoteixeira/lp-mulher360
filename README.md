@@ -1,54 +1,50 @@
-# React + TypeScript + Vite
+# Mulher360 · Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built for **Clínica Mulher360**, a clinic led by nutritionist **Luciana Teixeira** and
+focused on **integrative nutrition for women**. The project aims to communicate the clinic’s mission with clarity,
+emotion, and professionalism — empowering women to take care of their health in a holistic and sustainable way.
 
-Currently, two official plugins are available:
+This landing page showcases the core pillars of the Mulher360 method, real client testimonials, and guidance on how to
+start the journey toward a healthier life.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- React + Vite
+- TypeScript
+- TailwindCSS
+- Lucide Icons (SVG-based icons)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📐 Project Structure
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+```
+src/
+├── assets/      # Static assets
+| ├── images/    # Images used in the project
+| └── style/     # Global styles and Tailwind configuration
+├── components/  # Reusable components
+├── constants/   # Constants and configuration
+├── data/        # Static data (e.g., testimonials, faqs)
+├── pages/       # Page components
+├── types/       # TypeScript types and interfaces
+├── App.tsx      # Main layout composition
+└── main.tsx     # Entry point
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Running Locally
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+To install and run the project locally:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
+```bash
+git clone https://github.com/reenatoteixeira/lp-mulher360.git
+cd lp-mulher360
+npm install
+npm run dev
 ```
+
+## 💡 Key Features
+
+- Clean, responsive design with mobile-first layout
+- Accessible UI with smooth animations
+- Accordion-style FAQ with stateful icons
+- Clear visual hierarchy and conversion-focused layout
+- Ready to deploy on platforms like Vercel, Netlify or Cloudflare Pages
