@@ -1,9 +1,9 @@
-import Header from "../../components/Header/Header";
-import Hero from "./sections/Hero";
-import About from "./sections/About";
-import HowItWork from "./sections/HowItWork";
-import Testimonial from "./sections/Testimonial";
-import Methodology from "./sections/Methodology";
+import Header from '../../components/Header/Header';
+import Hero from './sections/Hero';
+import About from './sections/About';
+import HowItWork from './sections/HowItWork';
+import Testimonial from './sections/Testimonial';
+import Methodology from './sections/Methodology';
 
 function LandingPage() {
   return (
@@ -15,7 +15,7 @@ function LandingPage() {
       <Testimonial />
       <Methodology />
     </>
-  )
+  );
 }
 
 export default LandingPage;
