@@ -9,7 +9,7 @@ import TestimonialCard from '../TestimonialCard/TestimonialCard';
 
 function TestimonialsSwiper() {
   return (
-    <div className="mt-12 w-full">
+    <div className="mt-12 w-full text-left">
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 5000 }}

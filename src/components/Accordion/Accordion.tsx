@@ -19,7 +19,10 @@ function Accordion({ title, children, defaultOpen = false }: AccordionProps) {
         />
       </button>
       <div
-        className={clsx('overflow-hidden text-sm transition-all md:text-base', isOpen ? 'max-h-fit p-4' : 'max-h-0')}
+        className={clsx(
+          'overflow-hidden text-left text-sm transition-all md:text-base',
+          isOpen ? 'max-h-fit p-4' : 'max-h-0',
+        )}
       >
         <div>{children}</div>
       </div>
