@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.svg';
 import { Menu, X } from 'lucide-react';
 import NavMenuDesktop from '../NavMenu/desktop/NavMenu';
 import NavMenuMobile from '../NavMenu/mobile/NavMenu';
-import { MAIN_NAV_LINKS } from '../../constants/navLinks.ts';
+import { MAIN_NAV_LINKS } from '../../constants/navLinks';
 
 function Header() {
   const [navOpen, setNavOpen] = useState(false);

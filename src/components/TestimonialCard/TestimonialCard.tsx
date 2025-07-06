@@ -1,4 +1,4 @@
-import type { TestimonialCardTypes } from './TestimonialCard.types.ts';
+import type { TestimonialCardTypes } from './TestimonialCard.types';
 
 function TestimonialCard({ content, name, age, avatar }: TestimonialCardTypes) {
   return (
