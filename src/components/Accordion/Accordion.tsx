@@ -12,6 +12,7 @@ function Accordion({ title, children, defaultOpen = false }: AccordionProps) {
         onClick={() => setIsOpen(!isOpen)}
         className={`hover:bg-brown-800/3 flex w-full items-center justify-between gap-4 px-4 py-4 font-medium transition-all hover:cursor-pointer md:text-lg ${isOpen ? 'bg-brown-800/3' : 'bg-transparent'}`}
         aria-expanded={isOpen}
+        aria-controls={contentId}
       >
         <p className="w-full text-left">{title}</p>
         <ChevronDown
