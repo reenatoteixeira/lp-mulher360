@@ -1,6 +1,6 @@
-import ButtonLink from '../../../components/ButtonLink/ButtonLink.tsx';
+import ButtonLink from '../../../components/ButtonLink/ButtonLink';
 import { MessageCircle } from 'lucide-react';
-import Accordion from '../../../components/Accordion/Accordion.tsx';
+import Accordion from '../../../components/Accordion/Accordion';
 import { faqs } from '../../../data/faq.ts';
 
 function FAQ() {
