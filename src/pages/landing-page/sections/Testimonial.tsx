@@ -5,7 +5,7 @@ import { MessageCircle } from 'lucide-react';
 function Testimonial() {
   return (
     <section id="depoimentos">
-      <div className="text-brown-800/70 container mx-auto flex max-w-7xl flex-col items-center px-6 py-24">
+      <div className="text-brown-800/70 container mx-auto flex max-w-7xl flex-col items-center px-6 py-24 text-center">
         <h2 className="text-4xl font-bold">Histórias de Transformação</h2>
 
         <p className="mt-6 text-lg">

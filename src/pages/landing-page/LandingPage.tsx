@@ -4,6 +4,7 @@ import About from './sections/About';
 import HowItWork from './sections/HowItWork';
 import Testimonial from './sections/Testimonial';
 import Methodology from './sections/Methodology';
+import FAQ from './sections/FAQ';
 
 function LandingPage() {
   return (
@@ -14,6 +15,7 @@ function LandingPage() {
       <HowItWork />
       <Testimonial />
       <Methodology />
+      <FAQ />
     </main>
   );
 }
