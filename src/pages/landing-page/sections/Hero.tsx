@@ -1,8 +1,8 @@
-import ButtonLink from '../components/ButtonLink/ButtonLink';
+import ButtonLink from '../../../components/ButtonLink/ButtonLink';
 import { Instagram, MessageCircle, Mouse } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
-function HeroPage() {
+function Hero() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -65,4 +65,4 @@ function HeroPage() {
   );
 }
 
-export default HeroPage;
+export default Hero;

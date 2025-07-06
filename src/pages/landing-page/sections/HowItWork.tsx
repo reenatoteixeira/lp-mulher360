@@ -1,6 +1,6 @@
-import Stepper from '../components/Stepper/Stepper.tsx';
+import Stepper from '../../../components/Stepper/Stepper';
 
-function HowItWorkPage() {
+function HowItWork() {
   return (
     <section id="como-funciona" className="bg-white">
       <div className="text-brown-800/70 container mx-auto flex max-w-7xl flex-col items-center px-6 py-24 text-center">
@@ -50,4 +50,4 @@ function HowItWorkPage() {
   );
 }
 
-export default HowItWorkPage;
+export default HowItWork;

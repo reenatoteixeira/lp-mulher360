@@ -1,6 +1,6 @@
-import CardItem from '../components/CardItem/CardItem.tsx';
+import CardItem from '../../../components/CardItem/CardItem';
 
-function MethodologyPage() {
+function Methodology() {
   return (
     <section id="metodologia" className="bg-white">
       <div className="text-brown-800/70 container mx-auto flex max-w-7xl flex-col items-center px-6 py-24 text-center">
@@ -41,4 +41,4 @@ function MethodologyPage() {
   );
 }
 
-export default MethodologyPage;
+export default Methodology;

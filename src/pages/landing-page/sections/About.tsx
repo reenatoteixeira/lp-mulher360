@@ -1,6 +1,6 @@
-import aboutPicture from '../assets/images/about-picture.svg';
+import aboutPicture from '../../../assets/images/about-picture.svg';
 
-function AboutPage() {
+function About() {
   return (
     <section id="sobre">
       <div className="container mx-auto flex max-w-7xl flex-col items-center px-6 py-24 lg:flex-row lg:items-start lg:justify-between lg:gap-12">
@@ -50,4 +50,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default About;

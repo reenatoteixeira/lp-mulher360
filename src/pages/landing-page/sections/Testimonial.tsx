@@ -1,8 +1,8 @@
-import TestimonialsSwiper from '../components/TestimonialSwiper/TestimonialSwiper.tsx';
-import ButtonLink from '../components/ButtonLink/ButtonLink.tsx';
+import TestimonialsSwiper from '../../../components/TestimonialSwiper/TestimonialSwiper';
+import ButtonLink from '../../../components/ButtonLink/ButtonLink';
 import { MessageCircle } from 'lucide-react';
 
-function TestimonialPage() {
+function Testimonial() {
   return (
     <section id="depoimentos">
       <div className="text-brown-800/70 container mx-auto flex max-w-7xl flex-col items-center px-6 py-24">
@@ -31,4 +31,4 @@ function TestimonialPage() {
   );
 }
 
-export default TestimonialPage;
+export default Testimonial;
